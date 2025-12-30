@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+/* logo */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 375px;
+  height: 89px;
+  margin-top: 61px;
+}
+
+/* menu-list */
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 37px 0px;
+}
+
+.list-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.list-menu li a {
+  text-decoration: none;
+  color: #787878;
+  font-size: 20px;
+}
+
+#active {
+  color: black;
+  font-style: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 15Spx;
+}
+
+/* akhir header */
+
+.daftar-produk {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 305px;
+  height: 440px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.card img {
+  width: 253px;
+  height: 253px;
+}
+
+.card .judul {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.price {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.card button {
+  width: 253px;
+  height: 43px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
